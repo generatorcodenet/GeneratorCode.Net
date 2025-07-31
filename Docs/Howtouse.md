@@ -4,61 +4,60 @@ Welcome! This guide will help you get started quickly with **GeneratorCode**, yo
 
 ---
 
-## 1. Get Started Online
+## 1. Two Ways to Generate Your Backend
 
-You don’t need to install anything to try GeneratorCode. Just:
+You have two options to generate your backend:
 
-- Go to [https://generatorcode.net](https://generatorcode.net)
-- Enter a natural language prompt describing your backend or provide your database connection string
-- Click **Generate**
-- Download or clone the generated .NET backend ready to run
+### Option 1: Using AI with a Prompt
+
+- Enter a natural language prompt describing the backend you want.
+- For example:
+'Medical Clinic Appointment Booking System. Create a platform where patients can book appointments with doctors from various specialties. Include doctors, specialties, available schedules, medical history, prescriptions, and reminders.'
+
+
+- The AI will interpret your prompt and generate the backend accordingly.
+
+### Option 2: Using Your Database Connection
+
+- Go to the **Front Database** option.
+- Enter a valid connection string to your SQL Server database.
+- Click **Generate Schema**.
+- The application will analyze your database schema and generate backend code.
 
 ---
 
-## 2. Run Locally with Docker
+## 2. Schema Generation Process
 
-If you want to test GeneratorCode on your machine:
+- The schema generation process may take around 20 seconds.
+- Once completed, review the generated schema carefully.
+- If you want to modify anything (e.g., table names, field names, schemas), do so before proceeding.
+- If everything looks good, click **Generate App**.
+- You will be prompted to provide a name for your application.
 
-1. Make sure you have [Docker](https://www.docker.com/get-started) installed
+---
 
-2. Clone this repository:
+## 3. Downloading and Exploring the Generated Solution
 
-   ```bash
-   git clone https://github.com/YOUR-USER/YOUR-REPO.git
-   cd YOUR-REPO
-Build and run the app using Docker Compose:
+- After generation, a compressed file with your .NET solution will be downloaded.
+- Extract the compressed file.
+- Inside, you will find:
+- The full .NET backend solution.
+- A SQL script you can run on your own database.
+- A Postman collection for testing your API endpoints.
 
-    docker-compose up --build
+---
 
-3. Access the app at http://localhost:5000/swagger/index.html
-4. Using Prompts
+## 4. Running Your Application Locally
 
-You can provide natural language prompts like:
+You have two options to run your app locally:
 
-    “Create a backend for a blog with users, posts, and comments.”
+### Option 1: Using Docker Desktop
 
-    “Generate a .NET API with clean architecture and CQRS for an e-commerce database.”
+- Make sure you have [Docker Desktop](https://www.docker.com/products/docker-desktop) installed.
+- Open a terminal in the project folder.
+- Run:
 
-The AI will interpret your request and generate the backend code accordingly.
-4. Using Connection Strings
+```bash
+docker-compose up --build
 
-If you have an existing database, just enter your connection string (e.g., for SQL Server) and GeneratorCode will:
-
-    Analyze your database schema
-
-    Generate backend code with models, repositories, commands, and queries following clean architecture and CQRS patterns
-
-5. Next Steps
-
-    Download the generated code
-
-    Open it in your favorite IDE (Visual Studio, VS Code)
-
-    Build and run your new backend
-
-    Customize or extend as needed
-
-6. Need Help or Want to Give Feedback?
-
-    Open an issue or discussion in this repo here 
 
