@@ -30,9 +30,8 @@ Build and run the app using Docker Compose:
 
     docker-compose up --build
 
-    Access the app at http://localhost:4200
-
-3. Using Prompts
+3. Access the app at http://localhost:5000/swagger/index.html
+4. Using Prompts
 
 You can provide natural language prompts like:
 
