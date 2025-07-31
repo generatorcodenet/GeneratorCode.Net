@@ -20,7 +20,7 @@ GeneratorCode is an online tool that helps you **generate complete .NET backend 
 
 ## 📦 Try It Online
 
-👉 [https://generatorcode.net](https://www.generatorcode.net)
+👉 [https://www.generatorcode.net](https://www.generatorcode.net)
 
 You can generate code right now without signing in. Just enter a prompt or your database connection string.
 
@@ -59,7 +59,7 @@ GeneratorCode is indie-built and open to the community. Every star, share, and s
 
 ## 📫 Stay in Touch
 
-Follow the project or reach out on LinkedIn, GitHub or Twitter.
+Follow the project or reach out on  ([Twitter](https://x.com/GeneratorCodeNe)).
 
 Thanks for checking it out!
 
