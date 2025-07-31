@@ -28,11 +28,10 @@ You can generate code right now without signing in. Just enter a prompt or your 
 
 ## 📄 Documentation
 
-- How to use GeneratorCode
-- Docker setup
-- Prompt examples
-- Output structure
-- Troubleshooting
+- [How to use GeneratorCode](https://github.com/generatorcodenet/GeneratorCode.Net/blob/main/Docs/Howtouse.md)
+- [Docker setup ](https://github.com/generatorcodenet/GeneratorCode.Net/blob/main/Docs/Howtouse.md)
+- [Prompt examples](https://github.com/generatorcodenet/GeneratorCode.Net/blob/main/Docs/PromptExamples.md)
+- [Output structure](https://github.com/generatorcodenet/GeneratorCode.Net/blob/main/Docs/Output.md)
 
 > Full documentation coming soon. Stay tuned.
 
