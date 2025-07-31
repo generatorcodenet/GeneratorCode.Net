@@ -25,15 +25,10 @@ The generated solution includes:
 This is the main API project (entry point).
 
 ├── Endpoints/
-
 │ ├── Appointments/
-
 │ │ ├── Appointment/
-
 │ │ │ ├── Create.cs
-
 │ │ │ ├── Delete.cs
-
 │ │ │ ├── Get.cs
 │ │ │ ├── GetById.cs
 │ │ │ ├── Update.cs
