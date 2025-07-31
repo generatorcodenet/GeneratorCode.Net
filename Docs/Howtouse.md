@@ -59,5 +59,28 @@ You have two options to run your app locally:
 
 ```bash
 docker-compose up --build
+ ```
+
+The app will be available at http://localhost:5000.
+
+This method runs your backend inside Docker containers, including a container with your database already created.
+Option 2: Running with .NET CLI
+    If you don’t have Docker, open the solution in your favorite code editor (Visual Studio, VS Code).
+    Run the project using:
+
+    dotnet run
+
+5. Next Steps
+
+    Customize or extend the backend as needed.
+
+    Use the Postman collection to test your API.
+
+    Deploy your application according to your preferred method.
+
+6. Need Help or Want to Give Feedback?
+
+    Open an issue or discussion in the project repository for support and suggestions.
+
 
 
