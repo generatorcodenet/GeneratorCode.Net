@@ -23,52 +23,30 @@ The generated solution includes:
 ### 📁 `Prueba.Medical.Web.Api`
 
 This is the main API project (entry point).
-
+```
 ├── Endpoints/
-
 │ ├── Appointments/
-
 │ │ ├── Appointment/
-
 │ │ │ ├── Create.cs
-
 │ │ │ ├── Delete.cs
-
 │ │ │ ├── Get.cs
-
 │ │ │ ├── GetById.cs
-
 │ │ │ ├── Update.cs
-
 │ │ └── AppointmentNote/
-
 │ ├── Auth/
-
 │ ├── MedicalConsultations/
-
 │ ├── MedicalRecords/
-
 │ ├── Prescriptions/
-
 │ ├── Reminders/
-
 │ ├── Tags.cs
-
 │ ├── IEndpoint.cs
-
 ├── Extensions/
-
 ├── Infrastructure/
-
 ├── Middleware/
-
 ├── appsettings.json
-
 ├── DependencyInjection.cs
-
 ├── Program.cs
-
-
+```
 ---
 
 ### 📁 `Prueba.Medical.Application`
