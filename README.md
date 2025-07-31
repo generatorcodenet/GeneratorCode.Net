@@ -59,7 +59,7 @@ GeneratorCode is indie-built and open to the community. Every star, share, and s
 
 ## 📫 Stay in Touch
 
-Follow the project or reach out on [Twitter](https://x.com/GeneratorCodeNe) ([TikTok](https://www.tiktok.com/@generatorcode)). 
+Follow the project or reach out on [Twitter](https://x.com/GeneratorCodeNe) [TikTok](https://www.tiktok.com/@generatorcode). 
 
 Thanks for checking it out!
 
